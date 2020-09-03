@@ -1,6 +1,18 @@
+.social-icons-menu a {
+	color: #777;
+	text-decoration: none;
+	position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.social-icons-menu a:active,
+.social-icons-menu a:hover {
+	color: lightblue;
+}
+
 header {
-	background-image: url(img/capa-background4.jpg);
-	
+	background-image: url(img/capa-background4.jpg);	
 	background-size: cover;
 	background-position: top center;
 	height: 100vh;
@@ -130,6 +142,11 @@ footer {
 	.foto-sobre {		
 		padding-right: 0;
 		margin: 0 20px 20px 0;	
+	}
+
+	.social-icons-menu a {
+		padding-top: 15px;
+    	padding-bottom: 15px;
 	}
 
 	#parallaxBar{
