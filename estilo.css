@@ -1,3 +1,11 @@
+header {
+	background-image: url(img/capa-background4.jpg);	
+	background-size: cover;
+	background-position: top center;
+	height: 100vh;
+	position: relative;
+}
+
 .social-icons-menu a {
 	color: #777;
 	text-decoration: none;
@@ -9,14 +17,6 @@
 .social-icons-menu a:active,
 .social-icons-menu a:hover {
 	color: lightblue;
-}
-
-header {
-	background-image: url(img/capa-background4.jpg);	
-	background-size: cover;
-	background-position: top center;
-	height: 100vh;
-	position: relative;
 }
 
 .capa img {
