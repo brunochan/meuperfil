@@ -6,6 +6,11 @@ header {
 	position: relative;
 }
 
+.navbar-header a {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.35em;
+}
+
 .social-icons-menu a {
 	color: #777;
 	text-decoration: none;
@@ -66,8 +71,23 @@ header {
 	font-size: 2.2em;
 }
 
+.hobbies-capa {
+	overflow: hidden;
+}
+
 .hobbies-capa img {
-	width: 100%;
+	width: 100%;	
+	transition: all 0.3s;
+}
+
+.hobbies-capa:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.hobbies-capa:hover h3 {
+	text-decoration: underline;
 }
 
 .item {
@@ -102,7 +122,7 @@ header {
 #parallaxBar{
     height:260px;    
     background-color:#004c82;
-    background: url(img/pordosol.jpg) 50% 100% fixed no-repeat;
+    background: url(img/pordosol.jpg) 100% 100% fixed no-repeat;    
     position: relative;
     background-size: 100%;
 }
@@ -156,7 +176,13 @@ footer {
 
 @media (min-width: 1024px) {
 	#parallaxBar{
-    	height:520px;
-    	background-size: auto;
+		background-image: url(img/pordosol-1024px.jpg);
+    	height:520px;    	 	
+	}
+}
+
+@media (min-width: 1440px) {
+	#parallaxBar{
+    	height:640px;    	
 	}
 }
