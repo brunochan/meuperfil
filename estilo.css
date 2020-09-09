@@ -64,7 +64,8 @@ header {
 
 .separador {
 	text-align: center;
-	font-family: 'Lovers Quarrel', cursive;	
+	font-family: 'Lovers Quarrel', cursive;
+	margin-top: 20px;
 }
 
 .separador h3 {
@@ -117,6 +118,10 @@ header {
 	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -35%);
+}
+
+.video {
+	margin-bottom: 20px;
 }
 
 #parallaxBar{
