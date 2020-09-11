@@ -81,12 +81,14 @@ header {
 	transition: all 0.3s;
 }
 
+.hobbies-capa:active img,
 .hobbies-capa:hover img {
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
 
+.hobbies-capa:active h3,
 .hobbies-capa:hover h3 {
 	text-decoration: underline;
 }
