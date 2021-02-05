@@ -1,9 +1,9 @@
 $('#collapse-navbar').on('show.bs.collapse', function() {
-	$('.capa').css('transform', 'translate(-50%, 10%');
+	$('.foto-capa').css('transform', 'translate(-50%, 10%');
 });
 
 $('#collapse-navbar').on('hide.bs.collapse', function() {
-	$('.capa').css('transform', 'translate(-50%, -50%');
+	$('.foto-capa').css('transform', 'translate(-50%, -50%');
 });
 
 
