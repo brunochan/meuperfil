@@ -1,0 +1,20 @@
+.foto-sobre {
+	margin-bottom: 10px;
+}
+
+.sobre-texto {
+	text-align: justify;
+	text-indent: 20px;	
+}
+
+.sobre-texto p {	
+	margin: 0 0 9px 0;
+	word-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+	.foto-sobre {		
+		padding-right: 0;
+		margin: 0 20px 20px 0;	
+	}
+}

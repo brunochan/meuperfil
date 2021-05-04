@@ -1,0 +1,15 @@
+.projetos a:hover {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .projetos__painel .thumbnail {
+        height: 48rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .projetos__painel .thumbnail {
+        height: 42rem;
+    }
+}

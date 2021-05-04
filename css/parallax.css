@@ -1,0 +1,30 @@
+.parallaxBar{
+    height:340px;    
+    background-color:#004c82;
+    background: url('../img/pordosol.jpg') 100% 100% fixed no-repeat;    
+    position: relative;
+    background-size: 100%;
+}
+
+.element.style {
+	background-position: 50% 210px;
+}
+
+@media (min-width: 768px) {	
+	.parallaxBar{
+    	height:520px;    	
+	}		
+}
+
+@media (min-width: 1024px) {
+	.parallaxBar{
+		background-image: url('../img/pordosol-1024px.jpg');
+    	height:520px;    	 	
+	}
+}
+
+@media (min-width: 1440px) {
+	.parallaxBar{
+    	height:640px;    	
+	}
+}

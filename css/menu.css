@@ -1,0 +1,19 @@
+.navbar-header a {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.35em;
+}
+
+.social-icons-menu a {
+	color: #777;
+	text-decoration: none;
+	position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    transition: transform 0.8s;
+}
+
+.social-icons-menu a:active,
+.social-icons-menu a:hover {
+	color: lightblue;
+	transform: rotateX(360deg);
+}
